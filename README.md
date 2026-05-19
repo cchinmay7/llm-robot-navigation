@@ -34,7 +34,7 @@ Our "shoestring" implementation proves that functional vision-language-action sy
 
 The system operates via a continuous closed-loop Python orchestration framework:
 1. **Perception:** The ROS/Gazebo simulated Jackal robot captures an RGB camera view and flattens a 2D LIDAR point cloud.
-2. **Prompt Injection:** A structured system prompt (defining goals, movement constraints, and available data) is combined with the sensory images.
+2. **Prompt:** A structured system prompt (defining goals, movement constraints, and available data) is combined with the sensory images.
 3. **Cognitive Processing:** The LLM interprets the environment and returns a structured JSON payload containing:
    * A situational summary
    * Discrete turn/move directions
