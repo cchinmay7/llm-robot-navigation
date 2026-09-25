@@ -24,7 +24,7 @@ Autonomous navigation traditionally relies on specialized algorithms and meticul
 
 This study investigates the potential of **GPT-4o** and **GPT-4 Turbo** to assist in robotic navigation tasks within a simulated maze. By combining visual data (RGB camera) and point clouds (LIDAR) with natural language instructions, we demonstrate emergent spatial reasoning capabilities. A key finding of our research is that models with natively built-in multi-modal architectures (GPT-4o) significantly outperform models where vision capabilities were added post-training (GPT-4 Turbo).
 
-> ⚠️ **Repository Status:** This repository serves as a research showcase and portfolio piece. The proprietary source code, ROS/Gazebo simulation environments, and custom hardware patches are not publicly hosted here.
+> ℹ️ **Repository Status:** This repository hosts the paper, poster, and results. The source code, ROS/Gazebo simulation environments, and hardware patches were developed as a university research project and are not publicly released.
 
 ---
 
